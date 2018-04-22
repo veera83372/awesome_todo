@@ -13,6 +13,7 @@
       <td><%= todo_list.title %></td>
       <td><%= todo_list.description %></td>
       <td><%= link_to 'Show', todo_list_path(todo_list) %></td>
+      <td><%= link_to 'Edit', edit_todo_list_path(todo_list) %></td>
     </tr>
   <% end %>
 </table>
